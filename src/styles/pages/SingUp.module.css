@@ -1,0 +1,52 @@
+.layoutlogin {
+  background: linear-gradient(
+    238.89deg,
+    #61288e -16.04%,
+    #9a5acc 43.92%,
+    rgba(221, 15, 101, 0.8) 73.9%
+  );
+  height: 50vmax;
+  padding: 10em 30em;
+}
+.cardlogin {
+  padding: 1em 2em;
+  border-radius: 25px;
+}
+.inputlogin {
+  border-radius: 20px;
+  padding: 0.8em 1em;
+  width: 30vmax;
+}
+.btnlogin {
+  width: 30vmax;
+  border-radius: 10px;
+  height: 3vmax;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #fe7e0c;
+  border: none;
+}
+.btnlogin:hover {
+  color: #fff;
+  background-color: #fe7e0c;
+}
+.labelLogin{
+    color: #61288e;
+}
+
+@media screen and (max-width: 700px ){
+    .layoutlogin {
+        height: 150vmax;
+        padding: 10em 10em;
+      }
+      .inputlogin {
+
+        width: 40vmax;
+      }
+      .btnlogin {
+        width: 40vmax;
+        height: 6vmax;
+
+      }
+}

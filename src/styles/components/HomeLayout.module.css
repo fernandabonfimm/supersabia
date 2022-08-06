@@ -1,0 +1,63 @@
+/*  home Navbar style, Navbar.tsx file*/
+.navbar {
+  background: #fff;
+  height: 4vmax;
+}
+
+.hyperlink {
+  color: #fe7e0c;
+  font-size: 16px;
+  font-size: 600;
+}
+.hyperlink:hover {
+  color: rgba(221, 15, 101, 0.8);
+}
+.hyperlink:active {
+  color: rgba(221, 15, 101, 0.8);
+}
+.contactbtn{
+  background: linear-gradient(
+    238.89deg,
+    #61288e -16.04%,
+    #9a5acc 43.92%,
+    rgba(221, 15, 101, 0.8) 73.9%
+  );
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 0em 3em;
+}
+.contactbtn:hover{
+  background:#fe7e0c;
+  color: #fff;
+}
+/*  home footer style, Footer.tsx file */
+.footer {
+  background: linear-gradient(
+    238.89deg,
+    #61288e -16.04%,
+    #9a5acc 43.92%,
+    rgba(221, 15, 101, 0.8) 73.9%
+  );
+
+  width: 100vmax;
+}
+.ahover {
+  color: #fff;
+  font-size: 16px;
+}
+.ahover:hover {
+  color: #fe7e0c;
+}
+.divider {
+  background-color: #fff;
+}
+.titlefooter {
+  color: #fff;
+  font-size: 22px;
+}
+.descriptionfooter {
+  color: #fff;
+  font-size: 16px;
+}
